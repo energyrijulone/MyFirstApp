@@ -1,0 +1,6 @@
+        // Set a click listener for the button
+        button.setOnClickListener {
+            Toast.makeText(this, "Hello, Android!", Toast.LENGTH_SHORT).show()
+        }
+    }
+}
