@@ -32,12 +32,7 @@ class MainActivity : AppCompatActivity() {
         // Find the button by its ID
         val button = findViewById<Button>(R.id.helloButton)
 
-        // Set a click listener for the button
-        button.setOnClickListener {
-            Toast.makeText(this, "Hello, Android!", Toast.LENGTH_SHORT).show()
-        }
-    }
-}
+
 dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
